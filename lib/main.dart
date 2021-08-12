@@ -29,6 +29,8 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.indigo,
+          accentColor: Colors.indigoAccent,
+          primaryColor: Colors.indigoAccent,
           brightness: Brightness.dark,
           cardTheme: CardTheme(
             shape: RoundedRectangleBorder(
