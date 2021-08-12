@@ -26,18 +26,19 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.indigo,
-          accentColor: Colors.indigoAccent,
-          primaryColor: Colors.indigoAccent,
-          brightness: Brightness.dark,
-          cardTheme: CardTheme(
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(16),
-            ),
+      title: 'Todo App',
+      theme: ThemeData(
+        primarySwatch: Colors.indigo,
+        accentColor: Colors.indigoAccent,
+        primaryColor: Colors.indigoAccent,
+        brightness: Brightness.dark,
+        cardTheme: CardTheme(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
           ),
         ),
-        home: TodoScreen());
+      ),
+      home: TodoScreen(),
+    );
   }
 }

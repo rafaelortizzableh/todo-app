@@ -230,6 +230,7 @@ class _BottomSheetTextInputState extends State<BottomSheetTextInput> {
               padding: const EdgeInsets.symmetric(horizontal: 64),
               child: TextField(
                 autofocus: true,
+                textCapitalization: TextCapitalization.sentences,
                 autocorrect: true,
                 controller: _controller,
                 onSubmitted: (text) => Navigator.pop(context, text),
