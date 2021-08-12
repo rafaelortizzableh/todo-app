@@ -9,3 +9,5 @@ class TodoListFromPrefs extends TodoList {
   TodoListFromPrefs(List<String> todos, List<String> doneItems)
       : super(todos, doneItems);
 }
+
+enum TypeOfTodos { done, todo }

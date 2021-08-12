@@ -1,5 +1,10 @@
 export 'todo_provider.dart';
 export 'todo_screen.dart';
-export 'todo_service.dart';
 export 'todo_controller.dart';
 export 'todo_model.dart';
+export 'widgets/add_todo_fab.dart';
+export 'widgets/done_item_widget.dart';
+export 'widgets/todo_widget.dart';
+export 'widgets/fallback.dart';
+export 'widgets/add_todo_fab.dart';
+export 'widgets/add_todo_modal.dart';
